@@ -4,7 +4,7 @@ public class HashTable {
     public static void main(String[] args) {
         LinkedList<String, Integer> linkedlist=new LinkedList<>();
 
-        String message="To be or not to be";
+        String message="Paranoids are not aranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         String[] messagearray=message.toLowerCase().split(" ");
         for(String word:messagearray) {
             Integer value=linkedlist.get(word);
