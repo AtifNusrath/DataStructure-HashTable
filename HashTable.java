@@ -16,6 +16,7 @@ public class HashTable {
             linkedlist.add(word, value);
         }
         System.out.println(linkedlist.toString());
+        linkedlist.remove("avoidable");
 
     }
 
